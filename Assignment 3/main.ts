@@ -1,11 +1,25 @@
 // Assignment # 3
 
-//Storing qoute and its author's name in a variable
+//Storing a person name in a variable
 
-let qoute:string = "Setting goals is the first step in turning the invisible into the visible ";
+let personName:string = "Syed Daniyal Akhtar"; 
 
-let authorName:string = "Tony robbins";
+//printing person name in lowercase
 
-//Printing the message
+console.log("Lowercase:", personName.toLowerCase());
 
-console.log(`${authorName} said: "${qoute}"`);
+//printing person name in uppercase
+
+console.log("Uppercase:", personName.toUpperCase());
+
+//printing person name in titlecase
+
+let titleCase:string[] = personName.split(" ");
+
+let titleCaseName:string = "";
+
+for (let i = 0; i < titleCase.length; i++) {
+    titleCaseName += titleCase[i].charAt(0).toUpperCase() + titleCase[i].slice(1).toLowerCase() + " " ;
+}
+
+console.log("Tittle-case : " + titleCaseName);

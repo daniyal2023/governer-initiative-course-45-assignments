@@ -1,6 +1,15 @@
+"use strict";
 // Assignment # 3
-//Storing qoute and its author's name in a variable
-var qoute = "Setting goals is the first step in turning the invisible into the visible ";
-var authorName = "Tony robbins";
-//Printing the message
-console.log("".concat(authorName, " said: \"").concat(qoute, "\""));
+//Storing a person name in a variable
+let personName = "Syed Daniyal Akhtar";
+//printing person name in lowercase
+console.log("Lowercase:", personName.toLowerCase());
+//printing person name in uppercase
+console.log("Uppercase:", personName.toUpperCase());
+//printing person name in titlecase
+let titleCase = personName.split(" ");
+let titleCaseName = "";
+for (let i = 0; i < titleCase.length; i++) {
+    titleCaseName += titleCase[i].charAt(0).toUpperCase() + titleCase[i].slice(1).toLowerCase() + " ";
+}
+console.log("Tittle-case : " + titleCaseName);
