@@ -1,4 +1,4 @@
-// Assignment # 1
+// Assignment # 2
 
 //Storing a persons name in a variable
 
