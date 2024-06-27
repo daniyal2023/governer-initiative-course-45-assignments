@@ -5,6 +5,6 @@ let guestNames: string[] = ["Aliyan" , "Rafay" , "Muhammad" , "Kashan" , "Musab"
 
 //print the names with the invitation message
 guestNames.forEach(guests => {
-    console.log(`Asallam o alaikum ! ${guests} would you like to come to my house for dinner tommorow ?`)
+    console.log(`Asallam o alaikum ! ${guests} you are invited for dinner tommorow .`)
 });
 
