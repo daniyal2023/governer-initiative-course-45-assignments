@@ -5,11 +5,11 @@
 let magicians : string[] = ["Tom" , "David" , "Harry Potter" , "Andrew"];
 
 //create the function to print the name of each magician present in the array
-function show_magicians(){
+function show_magicians(magicians : string[]){
     magicians.forEach(names => {
         console.log(names);
     });
 };
 
 //call the fuction
-show_magicians()
+show_magicians(magicians)
