@@ -4,14 +4,14 @@
 //Start with the copy of program of exercise 41
 let magicians = ["Tom", "David", "Harry Potter", "Andrew"];
 //create the function to print the name of each magician present in the array
-function show_magicians() {
+function show_magicians(magicians) {
     magicians.forEach(names => {
         console.log(names);
     });
 }
 ;
 //make function called great_magicians
-function make_great() {
+function make_great(magicians) {
     for (let i = 0; i < magicians.length; i++) {
         magicians[i] = magicians[i] + " " + "The Great";
     }
@@ -19,5 +19,5 @@ function make_great() {
 }
 ;
 // call the functions
-make_great();
-show_magicians();
+make_great(magicians);
+show_magicians(magicians);
